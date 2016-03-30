@@ -3,8 +3,8 @@
 Ge1= input("Enter first General ed requirement:")
 Ge2= input("Enter second General ed requirement:")
 
-file = open('General Ed files/'+Ge1+'.txt', 'r')
-file2 = open('General Ed files/'+Ge2+'.txt', 'r')
+file = open('Ge calculator/General Ed files/'+Ge1+'.txt', 'r')
+file2 = open('Ge calculator/General Ed files/'+Ge2+'.txt', 'r')
 
 f = open('GE calculator/General Ed files/%s and %s.txt' %(Ge1, Ge2),'w') 
 
